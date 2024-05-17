@@ -1,7 +1,7 @@
 local Config = {
-    Config.ChatResourceName = "Characters",
-    Config.Server_Webhook = "https://discord.com/api/webhooks/link-here", --[[ only useful for the example ]]
-    Config.Server_Webhook_Name = "Super duper logger", --[[ only useful for the example ]]
+    ChatResourceName = "Characters",
+    Server_Webhook = "https://discord.com/api/webhooks/link-here", --[[ only useful for the example ]]
+    Server_Webhook_Name = "Super duper logger", --[[ only useful for the example ]]
 }
 
 Citizen.CreateThread(function()
